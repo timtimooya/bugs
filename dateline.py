@@ -20,7 +20,7 @@ def next_date(date_string):
 
   # Convert the datetime object to string, 
   # in the format of "yyyy-mm-dd"
-  next_date_string = next_date_obj.strftime("yyyy-mm-dd")
+  next_date_string = next_date_obj.strftime("%Y-%m-%d")
   return next_date_string
 
 today = date.today()  # Get today's date
