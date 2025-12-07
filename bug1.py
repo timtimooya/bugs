@@ -1,5 +1,7 @@
+#!/usr/bin/env python3
 
 import re
+
 def compare_strings(string1, string2):
  #Convert both strings to lowercase
  #and remove leading and trailing blanks
@@ -8,7 +10,7 @@ def compare_strings(string1, string2):
 
 
  #Ignore punctuation
- punctuation = r"[.?!,;:-']" # re.error: bad character range :-' at position 6
+ punctuation = r"[-.?!,;:']" # re.error: bad character range :-' at position 6
 
 
 
